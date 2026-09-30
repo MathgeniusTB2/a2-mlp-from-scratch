@@ -1,0 +1,30 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+results/
+
+# notebook artefacts (regenerable)
+*.npz
+
+# LaTeX build artefacts
+*.aux
+*.log
+*.out
+*.nav
+*.snm
+*.toc
+*.vrb
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# scratch / scraped reference material
+.firecrawl/
+
+# macOS
+.DS_Store
