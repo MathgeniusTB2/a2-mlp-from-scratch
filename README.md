@@ -19,13 +19,12 @@ from a $10\times10$ reward matrix.
 | `metrics.json` | Machine-readable summary of every headline number. |
 | `Daniel_James_Martirosov_24948933_2026_UTS_ML_Journal.pdf` / `journal.pdf` | Written report and implementation log (A2 submission). |
 | `slides.pdf` / `a3_slides.pdf` | Presentation slides for A3 (`slides.tex`). |
-| `speaker_notes.md` | Speaker notes for the A3 presentation. |
 
 ## Running
 
-The notebook is self-contained. It installs any missing packages, downloads the four MNIST
-`idx` files on demand, normalises the data, trains the models and writes the figures and
-`metrics.json`. Runtime is about 10 minutes (5 criteria x 5 folds + refits).
+The notebook is self-contained. It needs only NumPy and Matplotlib (both preinstalled on Colab),
+downloads the four MNIST `idx` files on demand, normalises the data, trains the models and writes
+the figures and `metrics.json`. Runtime is about 10 minutes (5 criteria x 5 folds + refits).
 
 Locally, with [uv](https://docs.astral.sh/uv/):
 
